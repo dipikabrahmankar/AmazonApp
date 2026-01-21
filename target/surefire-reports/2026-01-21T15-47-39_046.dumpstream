@@ -1,0 +1,5 @@
+# Created at 2026-01-21T15:47:39.317
+Boot Manifest-JAR contains absolute paths in classpath 'F:\Dipika_SeleniumDemos\AmazonApp\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="27.965" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\Dipika_SeleniumDemos\AmazonApp\target\test-classes;F:\Dipika_SeleniumDemos\AmazonApp\target\classes;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-java\4.37.0\selenium-java-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-api\4.37.0\selenium-api-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.37.0\selenium-chrome-driver-4.37.0.jar;C:\Users\Dipika\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.37.0\selenium-chromium-driver-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-json\4.37.0\selenium-json-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.37.0\selenium-manager-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.37.0\selenium-devtools-v139-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v140\4.37.0\selenium-devtools-v140-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.37.0\selenium-devtools-v141-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.37.0\selenium-edge-driver-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.37.0\selenium-firefox-driver-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-http\4.37.0\selenium-http-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.37.0\selenium-ie-driver-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.37.0\selenium-remote-driver-4.37.0.jar;C:\Users\Dipika\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\Dipika\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Dipika\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dipika\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Dipika\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-api\1.55.0\opentelemetry-api-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-context\1.55.0\opentelemetry-context-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-common\1.55.0\opentelemetry-common-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.55.0\opentelemetry-exporter-logging-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.55.0\opentelemetry-sdk-common-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.55.0\opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.55.0\opentelemetry-sdk-extension-autoconfigure-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.55.0\opentelemetry-sdk-trace-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.55.0\opentelemetry-sdk-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.55.0\opentelemetry-sdk-metrics-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.55.0\opentelemetry-sdk-logs-1.55.0.jar;C:\Users\Dipika\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-os\4.37.0\selenium-os-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.37.0\selenium-safari-driver-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-support\4.37.0\selenium-support-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Dipika\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Dipika\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Dipika\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
+    <property name="sun.java.command" value="C:\Users\Dipika\AppData\Local\Temp\surefire10864585171551580609\surefirebooter-20260121154739242_3.jar C:\Users\Dipika\AppData\Local\Temp\surefire10864585171551580609 2026-01-21T15-47-39_046-jvmRun1 surefire-20260121154739242_1tmp surefire_0-20260121154739242_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\Dipika_SeleniumDemos\AmazonApp\target\test-classes;F:\Dipika_SeleniumDemos\AmazonApp\target\classes;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-java\4.37.0\selenium-java-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-api\4.37.0\selenium-api-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.37.0\selenium-chrome-driver-4.37.0.jar;C:\Users\Dipika\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.37.0\selenium-chromium-driver-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-json\4.37.0\selenium-json-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.37.0\selenium-manager-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.37.0\selenium-devtools-v139-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v140\4.37.0\selenium-devtools-v140-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.37.0\selenium-devtools-v141-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.37.0\selenium-edge-driver-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.37.0\selenium-firefox-driver-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-http\4.37.0\selenium-http-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.37.0\selenium-ie-driver-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.37.0\selenium-remote-driver-4.37.0.jar;C:\Users\Dipika\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\Dipika\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Dipika\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dipika\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Dipika\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-api\1.55.0\opentelemetry-api-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-context\1.55.0\opentelemetry-context-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-common\1.55.0\opentelemetry-common-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.55.0\opentelemetry-exporter-logging-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.55.0\opentelemetry-sdk-common-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.55.0\opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.55.0\opentelemetry-sdk-extension-autoconfigure-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.55.0\opentelemetry-sdk-trace-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.55.0\opentelemetry-sdk-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.55.0\opentelemetry-sdk-metrics-1.55.0.jar;C:\Users\Dipika\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.55.0\opentelemetry-sdk-logs-1.55.0.jar;C:\Users\Dipika\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-os\4.37.0\selenium-os-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.37.0\selenium-safari-driver-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\seleniumhq\selenium\selenium-support\4.37.0\selenium-support-4.37.0.jar;C:\Users\Dipika\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Dipika\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Dipika\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Dipika\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Dipika"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="F:\Dipika_SeleniumDemos\AmazonApp"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dipika\AppData\Local\Temp\surefire10864585171551580609\surefirebooter-20260121154739242_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.2+12-54"/>
+    <property name="user.name" value="Dipika"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="otel.metrics.exporter" value="none"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Dipika\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="otel.logs.exporter" value="none"/>
+    <property name="java.io.tmpdir" value="C:\Users\Dipika\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.2"/>
+    <property name="user.dir" value="F:\Dipika_SeleniumDemos\AmazonApp"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\node_modules;C:\Program Files\Java\jdk-24\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\nodejs\;C:\Users\Dipika\AppData\Local\Android\Sdk\platform-tools;C:\Users\Dipika\AppData\Local\Android\Sdk\tools;C:\Users\Dipika\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Apache\apache-maven-3.9.12\bin;C:\Users\Dipika\AppData\Local\Microsoft\WindowsApps;C:\Users\Dipika\AppData\Roaming\npm;C:\Users\Dipika\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.2+12-54"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="launchAndGetTitle[chrome](1)" classname="com.tests.AmazonTest" time="16.365">
+    <system-out><![CDATA[Connection established with Chrome Browser
+Connection established with Edge Browser
+Connection established with firefox Browser
+Title of page is:Example Domain
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jan 21, 2026 3:47:40 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+]]></system-err>
+  </testcase>
+  <testcase name="launchAndGetTitle[edge](1)" classname="com.tests.AmazonTest" time="24.785">
+    <system-out><![CDATA[Title of page is:Example Domain
+]]></system-out>
+  </testcase>
+  <testcase name="launchAndGetTitle[firefox](1)" classname="com.tests.AmazonTest" time="27.074">
+    <system-out><![CDATA[Title of page is:Example Domain
+]]></system-out>
+  </testcase>
+</testsuite>
