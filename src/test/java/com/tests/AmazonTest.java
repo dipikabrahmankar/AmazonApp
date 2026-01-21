@@ -34,7 +34,7 @@ public class AmazonTest{
    	  System.out.println("Connection established with Edge Browser");
       }
       Thread.sleep(5000);
-      driver.get("https://example.com/");
+      driver.get("https://www.amazon.in/");
       Thread.sleep(3000);
       System.out.println("Title of page is:"+driver.getTitle());
       driver.quit();
