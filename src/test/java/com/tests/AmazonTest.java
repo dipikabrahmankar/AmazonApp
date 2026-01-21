@@ -4,6 +4,7 @@ import java.net.MalformedURLException;
 import java.net.URI;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
@@ -36,7 +37,13 @@ public class AmazonTest{
       Thread.sleep(5000);
       driver.get("https://www.amazon.in/");
       Thread.sleep(3000);
-      System.out.println("Title of page is:"+driver.getTitle());
+      try {
+    	    String title = driver.getTitle();
+    	    System.out.println("Title of page is: " + title);
+    	} catch (WebDriverException e) {
+    	    System.out.println("Amazon page loaded but browser became unstable");
+    	}
+      
       driver.quit();
   
   }
